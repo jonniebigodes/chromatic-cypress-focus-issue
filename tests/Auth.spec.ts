@@ -9,16 +9,6 @@ test.describe('Authentication', () => {
   }, testInfo) => {
     await page.goto('/login')
 
-    await page.screenshot({
-      path: './test-results/InitialLoginPageFocusJS.png',
-      fullPage: true,
-    })
-    await takeSnapshot(
-      page,
-      'Playwright - JS Focus state - Initial state of the login page',
-      testInfo
-    )
-
     await page.locator('input[name="email"]').fill('test@email.com')
     await page.locator('input[name="password"]').fill('KC@2N6^?vsV+)w1t')
     // testing purpose
