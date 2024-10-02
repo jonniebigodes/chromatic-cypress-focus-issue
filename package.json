@@ -56,10 +56,10 @@
   },
   "devDependencies": {
     "@babel/core": "^7.14.6",
-    "@chromatic-com/cypress": "^0.6.12",
-    "@chromatic-com/playwright": "^0.6.12",
+    "@chromatic-com/cypress": "^0.8.0",
+    "@chromatic-com/playwright": "^0.9.0",
     "@chromatic-com/storybook": "^2.0.2",
-    "@playwright/test": "^1.44.1",
+    "@playwright/test": "^1.47.2",
     "@storybook/addon-a11y": "^8.3.4",
     "@storybook/addon-coverage": "^1.0.3",
     "@storybook/addon-designs": "^8.0.3",
